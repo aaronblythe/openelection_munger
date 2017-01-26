@@ -1,17 +1,3 @@
-<<<<<<< HEAD
-/.bundle/
-/.yardoc
-/Gemfile.lock
-/_yardoc/
-/coverage/
-/doc/
-/pkg/
-/spec/reports/
-/tmp/
-
-# rspec failure tracking
-.rspec_status
-=======
 *.gem
 *.rbc
 /.config
@@ -62,4 +48,3 @@ build-iPhoneSimulator/
 
 # unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
 .rvmrc
->>>>>>> 9032a2fd2a36992224949797fa2fa6d44cb9ae90

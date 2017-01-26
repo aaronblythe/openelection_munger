@@ -1,0 +1,4 @@
+example_id                              | status | run_time        |
+--------------------------------------- | ------ | --------------- |
+./spec/openelection_munger_spec.rb[1:1] | passed | 5.9 seconds     |
+./spec/openelection_munger_spec.rb[1:2] | failed | 0.01774 seconds |

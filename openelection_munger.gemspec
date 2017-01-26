@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Aaron Blythe"]
   spec.email         = ["aaron.blythe@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
+  spec.summary       = %q{Munger for PDF's to csvs for use for OpenElections'}
+  spec.description   = %q{Munger for PDF's to csvs for use for OpenElections}
   spec.homepage      = "TODO: Put your gem's website or public repo URL here."
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
@@ -28,6 +28,11 @@ Gem::Specification.new do |spec|
   spec.bindir        = "exe"
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
+
+  spec.add_dependency 'debride'
+  spec.add_dependency 'rcodetools'
+  spec.add_dependency 'ruby-debug-ide'
+  spec.add_dependency 'debase'
 
   spec.add_development_dependency "bundler", "~> 1.14"
   spec.add_development_dependency "rake", "~> 10.0"
