@@ -33,6 +33,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'rcodetools'
   spec.add_dependency 'ruby-debug-ide'
   spec.add_dependency 'debase'
+  spec.add_dependency 'pdf-reader'
 
   spec.add_development_dependency "bundler", "~> 1.14"
   spec.add_development_dependency "rake", "~> 10.0"
