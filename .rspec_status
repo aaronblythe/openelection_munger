@@ -1,5 +1,5 @@
-example_id                              | status | run_time             |
---------------------------------------- | ------ | -------------------- |
-./spec/export_to_csv_spec.rb[1:1]       | failed | 6 minutes 52 seconds |
-./spec/openelection_munger_spec.rb[1:1] | passed | 0.0012 seconds       |
-./spec/openelection_munger_spec.rb[1:2] | failed | 0.0023 seconds       |
+example_id                              | status | run_time        |
+--------------------------------------- | ------ | --------------- |
+./spec/export_to_csv_spec.rb[1:1]       | failed | 35.48 seconds   |
+./spec/openelection_munger_spec.rb[1:1] | passed | 0.00549 seconds |
+./spec/openelection_munger_spec.rb[1:2] | failed | 0.01723 seconds |
